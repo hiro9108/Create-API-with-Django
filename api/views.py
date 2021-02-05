@@ -11,7 +11,7 @@ def Top(request):
 @api_view(['GET'])
 def apiOverviews(request):
   api_urls = {
-    'List': 'product/'
+    'List': 'products/'
   }
   return Response(api_urls)
 
