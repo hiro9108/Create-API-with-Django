@@ -18,17 +18,17 @@ pip install virtualenv
 ### Create virtualenv
 
 ```sh
-virtualenv <name>
+virtualenv {name}
 
-source <name>/bin/activate
+source {name}/bin/activate
 ```
 
 ### Create django project
 
 ```sh
-django-admin startproject <Project_name>
+django-admin startproject {Project_name}
 
-cd <Project_name>
+cd {Project_name}
 ```
 
 ### Install Django
@@ -40,13 +40,13 @@ pip install django
 ### Move to project folder
 
 ```sh
-cd <Project_name>
+cd {Project_name}
 ```
 
 ### Create django application
 
 ```sh
-django-admin startapp <App_name>
+django-admin startapp {App_name}
 ```
 
 
@@ -61,7 +61,7 @@ python manage.py createsuperuser
 
 ### 2. setup django
 
-https://bit.ly/2LVGcPZ
+Reference: <https://bit.ly/2LVGcPZ>
 
 ### 3. setup PostgreSQL
 >Install postgreSQL
@@ -134,9 +134,9 @@ DATABASES = {
 Create *.env* in top directory.
 
 
-'''sh
+```sh
 DATABASE_URL=postgres://postgres:postgres@localhost/demo_api
-'''
+```
 
 *DATABASE_URL=postgres://{username}:{password}@localhost/{DBName}
 
@@ -229,4 +229,4 @@ pip freeze > requirements.txt
 ```
 
 ### 6. Deploy to Heroku
->Connect github to heroku by using GUI
+>Connect github to heroku by using GUI.
