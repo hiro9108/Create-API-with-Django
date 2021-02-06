@@ -61,7 +61,7 @@ python manage.py createsuperuser
 
 ### 2. setup django
 
-Reference: <https://bit.ly/2LVGcPZ>
+Reference: <https://bit.ly/3jpvmOQ>
 
 ### 3. setup PostgreSQL
 >Install postgreSQL
