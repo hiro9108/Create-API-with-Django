@@ -27,5 +27,5 @@ def getAllProducts(request):
 @api_view(['GET'])
 def getAllFeatures(request):
   features = Feature.objects.all()
-  serializer = ProductSerializer(features, many=True)
+  serializer = FeatureSerializer(features, many=True)
   return Response(serializer.data)
